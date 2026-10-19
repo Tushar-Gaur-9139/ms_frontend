@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #fff;
+}
+
+::selection {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+.dark body {
+  background-color: #080e19;
+  color: #e2e8f0;
+}
+
+.dark [class~="bg-white"],
+.dark [class~="bg-white/80"],
+.dark [class~="bg-white/85"],
+.dark [class~="bg-white/90"],
+.dark [class~="bg-white/95"],
+.dark [class~="bg-[#fbfcfe]"] {
+  background-color: #111c2e;
+}
+
+.dark [class~="bg-[#f7f9fc]"],
+.dark [class~="bg-[#f3f5f8]"],
+.dark [class~="bg-[#f4f6f9]"],
+.dark [class~="bg-slate-50"],
+.dark [class~="bg-slate-100"] {
+  background-color: #0c1422;
+}
+
+.dark [class~="bg-blue-50"],
+.dark [class~="bg-blue-50/60"],
+.dark [class~="bg-blue-50/70"],
+.dark [class~="bg-blue-50/80"] {
+  background-color: #142b49;
+}
+
+.dark [class~="text-[#0f172a]"],
+.dark [class~="text-slate-900"],
+.dark [class~="text-slate-800"] {
+  color: #f1f5f9;
+}
+
+.dark [class~="text-slate-700"] {
+  color: #dbe4f0;
+}
+
+.dark [class~="text-slate-600"] {
+  color: #c0ccdc;
+}
+
+.dark [class~="text-slate-500"],
+.dark [class~="text-slate-400"] {
+  color: #94a3b8;
+}
+
+.dark [class~="text-blue-700"] {
+  color: #93c5fd;
+}
+
+.dark [class~="border-slate-100"],
+.dark [class~="border-slate-200"],
+.dark [class~="border-slate-200/70"],
+.dark [class~="border-slate-200/80"],
+.dark [class~="border-slate-300"] {
+  border-color: #273449;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  color: #e2e8f0;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #64748b;
+}
+
+.dark [class~="divide-slate-100"] > :not(:last-child),
+.dark [class~="divide-slate-200/70"] > :not(:last-child) {
+  border-color: #273449;
+}
+
+.dark ::selection {
+  background-color: #1e40af;
+  color: #eff6ff;
+}
